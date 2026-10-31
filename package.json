@@ -1,0 +1,16 @@
+{
+  "name": "queimada-aero",
+  "version": "1.0.0",
+  "description": "Queimada Aero: jogo de praia 3D controlado pela live do TikTok",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "tiktok-live-connector": "latest"
+  }
+}
